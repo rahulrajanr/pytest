@@ -10,7 +10,7 @@ def main():
 def hello():
     return 'I am good, how about you?'
 
-@app.route('/how are you')
+@app.route('/file')
 def read_file():
     f = open("/data/testfile.txt")
     contents = f.read()
